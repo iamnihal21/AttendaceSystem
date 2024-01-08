@@ -1,3 +1,12 @@
+h1{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 45px;
+  font-family: 'Josefin Sans', sans-serif;
+}
 .box {
     position: relative;
     top: 0;
@@ -459,4 +468,24 @@
       list-style-type: none;
       outline: none;
     }
+  }
+  @media only screen and (max-width: 600px) {
+    .material-button{
+      margin-right: 40px;
+      width: 100px;
+      height : 95px;
+      top: 130px;
+    }
+    h1{
+      margin-top: 120px;
+    }
+    .box{
+      margin-top: 150px;
+    }
+    .boxMargin{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
   }
