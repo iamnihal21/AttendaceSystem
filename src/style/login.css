@@ -1,0 +1,113 @@
+h1{
+  font-size: 55px;
+  font-style: bold;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.testinomials .testi-option > a{
+  margin:20px;
+  background: #f5eec2;
+  color:#39395f;
+  border-radius: 8px;
+  transition: .7s;   
+  padding: 24px; 
+  text-decoration: none;
+  width: 400px
+}
+
+.testinomials .testi-option div{
+  width: 400px
+}
+.testinomials .testi-option > a:hover{
+  width: 450px;
+}
+
+.tripPlans .triptext {
+  padding: 12px;
+}
+
+.testi-option div p:first-child {
+  font-size: 34px;
+}
+.testi-option div p:first-child span{
+  display: inline;
+  font-size: 1020px;
+}
+.testi-option div p:last-child {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactUs >div {
+  width: 690px;
+}
+
+.digital, .social, .physical{
+  background-color: #f5eec2;
+  width: max-content;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 18px 0;
+}
+.physical {
+  text-decoration: none;
+  color: #39395f;
+  transition: 0.5s;
+}
+.physical div{
+  font-size: 36px;
+  height: 50px;
+  margin: 18px 0;
+  width: 100%;
+  text-align: center;
+}
+.digital div{
+  font-size: 42px;
+  height: 50px;
+  margin: 18px 0;
+}
+
+.physical div a, .digital div a{
+  text-decoration: none;
+  color: #39395f;
+  transition: 0.5s;
+}
+.physical div a:hover, .digital div a:hover{
+  text-shadow: 0px 0px 3px #39395f;
+}
+.physical div a:focus, .digital div a:focus{
+  text-shadow: 0px 0px 3px #39395f;
+}
+
+:is(.digital, .social, .physical) h2{
+  font-size: 48px;
+  margin: 9px;
+  color: #39395f;
+  text-align: center;
+}
+
+.digital img, .social img{
+  border-radius: 50%;
+  margin: 0 16px;
+  transition: 1s;
+}
+
+.social img:hover{
+  box-shadow: 0px 0px 24px rgba(57, 57, 95, 0.75);
+}
+.social img:focus{
+  box-shadow: 0px 0px 24px rgba(57, 57, 95, 0.75);
+}
+
+.social div{
+  display: flex;
+  justify-content: space-around;
+}
